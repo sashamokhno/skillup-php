@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form action="index.html" method="get">
+    <div>
+    <label for="first_name">Your name</label>
+   <input class="person" id="first_name" name="first_name" placeholder="name" value="Саша">
+    </div>
+    <div>
+    <label>
+        Фамилия
+        <input class="person" name="last_name" placeholder="Фамилия">
+
+    </label>
+    </div>
+    <div>
+    <label>
+        адрес
+        <textarea name="Аdress">Яворницкого,5</textarea>
+
+    </label>
+    </div>
+    <div>
+    <label>
+        Посещаю курсы программирования
+        <input type="checkbox" name="courses" value="1" checked>
+    </label>
+    </div>
+    <div>
+
+    Вожу автомобиль
+    <label>
+
+        <input type="radio" name="driving" value="1">
+        да
+
+    </label>
+
+    <label>
+
+        <input type="radio" name="driving" value="2">
+        нет
+
+    </label>
+    </div>
+    <div>
+    Хожу в кино
+    <label>
+
+        <input type="radio" name="cinema" value="1">
+        да
+
+    </label>
+
+    <label>
+
+        <input type="radio" name="cinema" value="2">
+        нет
+
+    </label>
+    </div>
+<div>
+    <label>
+        Область
+        <select name="region">
+            <option></option>
+            <optgroup label="Д">
+           <option value="4"> Днепропетровская</option>
+            <option value="5" >Донецкая</option>
+           </optgroup>
+            <optgroup label="З">
+            <option value="6">Запорожская</option>
+            </optgroup>
+
+
+        </select>
+
+        </label>
+    </div>
+        <div>
+    <label>
+
+        Найти
+        <input type="search" name="term">
+
+    </label>
+        </div>
+<div>
+    <label>
+        Дата
+        <input type="date" name="birthday">
+
+    </label>
+</div>
+    <div>
+
+    <label>
+        Email
+        <input type="email" name="email">
+
+    </label>
+
+    </div>
+    <div>
+    <label>
+        Pass
+        <input type="password" name="password">
+
+    </label>
+    </div>
+    <div>
+    <label>
+        Возраст
+        <input type="number" name="age" min="5" max="99">
+
+    </label>
+
+    </div>
+    <div>
+    <input type="submit" value="Сохранить">
+
+
+    <input type="button" value="кнопка">
+    </div>
+    <div>
+    <button type="submit"> <strong>Умная</strong> кнопка </button>
+
+    <input type="reset" value="Сброс">
+    </div>
+</form>
+
+</body>
+</html>

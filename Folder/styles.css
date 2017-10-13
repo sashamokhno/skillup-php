@@ -1,0 +1,38 @@
+
+input {
+    font-family: sans-serif;
+    color: royalblue;
+}
+
+input.person {
+    color: blue;
+}
+#first_name{
+    color: green;
+}
+div {
+    border-bottom: 1px solid grey;
+}
+
+form div {
+    margin-bottom: 5px;
+}
+
+form input{
+    background-color: beige;
+}
+form div > input {
+    background-color: darkgray;}
+.block {
+    border: brown 1px ;
+    width: 2px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: mediumpurple;
+    font-style: italic;
+    font-family: "Century Schoolbook", "DejaVu Serif",sans-serif;
+
+
+}
