@@ -17,10 +17,10 @@ echo '<table border="1">';
 */
 // не получается разбить по ячейкам
 $a = file('users.txt');
-echo '<table width="500" border="1"><tr><th>№</th><th>Data</th></tr>';
+echo '<table width="500" border="1"><tr><th>№</th><th>FirstName</th><th>LastName</th><th>Email</th><th>Phone</th><th>Check</th></tr>';
 for($i=0;$i<sizeof($a);$i++){
-    $sub = explode(' ', $a[$i]);
-    echo '<tr><td>' . ($i+1) . '</td><td>' . $sub[0] .'</td></tr>' ;
+    $sub = explode("\t", $a[$i]);
+    echo '<tr><td>' . ($i+1) . '</td><td>' . $sub[0] .'</td>.<td>' . $sub[1] .'</td>.<td>' . $sub[2] .'</td>.<td>' . $sub[3] .'</td>.<td>' . $sub[4] .'</td></tr>' ;
 }
 echo '</table>';
     ?>
